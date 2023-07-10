@@ -1,0 +1,27 @@
+{
+    "name": "brijanesh/laravel-test",
+    "description": "Laravel admin core",
+    "license": "MIT",
+    "keywords": ["admin","laravel","admin-panel","admin-core", "laravel-admin-panel"],
+    "authors": [
+        {
+            "name": "Brijanesh",
+            "email": "brijaneshbhalala1998@gmail.com"
+        }
+    ],
+    "require": {
+        "spatie/laravel-permission": "^5.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Brijanesh\\LaravelTest\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Brijanesh\\LaravelTest\\AdminCoreServiceProvider"
+            ]
+        }
+    }
+}
